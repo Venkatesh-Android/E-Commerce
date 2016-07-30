@@ -5,10 +5,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="/bootstrap/css/custom.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-	<title>Home_Sidenav</title>
+	<link rel="stylesheet" href="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/css/custom.css">
+	<link rel="stylesheet" href="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/font-awesome-4.6.3/css/font-awesome.min.css">
+	<title>Android_Products</title>
 
 	<style>
 	.carousel-inner> .item > img,
@@ -22,7 +22,7 @@
 input[type=text] {
     width: 130px;
     box-sizing: border-box;
-    border: 0px solid #ccc;
+    border: 2px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
     background-color: white;
@@ -39,6 +39,7 @@ input[type=text]:focus {
 }
 </style>
 
+
 </head>
 <body>
 
@@ -54,18 +55,18 @@ input[type=text]:focus {
 		<span class="icon-bar"></span>
 
 		</button>>
-			<a class="navbar-brand" href="homeside1" style="color:#157ed2">E-Commerce <i class="fa fa-mouse-pointer fa-lg" aria-hidden="true"></i></a>
+			<a class="navbar-brand" href="homeside1.html" style="color:#157ed2">E-Commerce <i class="fa fa-mouse-pointer fa-lg" aria-hidden="true"></i></a>
 	</div>
 			<div class="collapse navbar-collapse" id="collapse">
 		<ul class="nav navbar-nav">
-			<li><a href="#"><span style="font-size:20px;cursor:pointer" onclick="openNav()">Electronics <i class="fa fa-shield fa-rotate-90"></i></span></a></li>
-			<li><a href="#">NewArrivals </a></li>
-			<li><a href="#">Refurbished</a></li>
-
+			<li><a href="homeside1.html">Home <span class="glyphicon glyphicon-home"></span></a></li>
+			<li><a href="#"><span style="font-size:20px;cursor:pointer" onclick="openNav()">Android <i class="fa fa-android fa-lg" style="color:#6ab344" aria-hidden="true"></i></span></a></li>
+			
 		</ul>
+
 		<i class="fa fa-search fa-2x" aria-hidden="true"></i> 
 		<form class="navbar-form navbar-left">
-            <input type="text" name="search"  placeholder="Search.."> 
+             <input type="text" name="search" placeholder="Search..">
          </form>
 
 		<ul class="nav navbar-nav navbar-right">
@@ -79,23 +80,51 @@ input[type=text]:focus {
 			<!--navigationDropdown_starts-->
 		<nav class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		<ul class="nav  nav-pills nav-tabs nav-justified">
-			<li class="dropdown"><a href="Apple_Prds-Page"><i class="fa fa-apple fa-lg" style="color:#8e8e93" aria-hidden="true"></i> Apple</a>
+			<li class="Androiddropdown"><a data-toggle="dropdown" href="#"><i class="fa fa-mobile fa-2x"  aria-hidden="true"></i>  Phone<span class="caret"></span></a>
+			
+			<ul class="dropdown-menu">
+				<li><a href="#">Top 10</a></li>
+				<li><a href="#">Fast Moving</a></li>
+				<li><a href="#">BigScreen Device</a></li>
+				<li><a href="#">Compact Design</a></li>
+				<li><a href="#">Highend</a></li>
+				<li><a href="#">Cheapest</a></li>
+				<li><a href="#">Specific Device Exchange</a></li>
+				<li><a href="#">Android Phone Accessories</a></li>
+			</ul>
 
 			</li>
-			<li class="dropdown"><a href="Android_Prds-Page"><i class="fa fa-android fa-lg" style="color:#6ab344" aria-hidden="true"></i> Android</a>
-				
-			</li>
-			<li class="dropdown"><a href="Windows_Prds-Page"><i class="fa fa-windows fa-lg" style="color:#0078d7" aria-hidden="true"></i> Windows</a>
-		
-			</li>
-			<li class="dropdown"><a data-toggle="dropdown" href="#"><img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Blackberry/bb2-edit-20x20.png"> Blackberry<span class="caret"></span></a>
+			<li class="Androiddropdown"><a data-toggle="dropdown" href="#"><i class="fa fa-tablet fa-2x" aria-hidden="true"></i>  Tab<span class="caret"></span></a>
 				<ul class="dropdown-menu">
-					<li><a href="#">Priv</a></li>
-					<li><a href="#">Passport</a></li>
-					<li><a href="#">Classic</a></li>
-					<li><a href="#">Leap</a></li>
-					<li><a href="#">P`9983</a></li>
-					<li><a href="#">Z30</a></li>
+					<li><a href="#">Top 10</a></li>
+					<li><a href="#">Fast Moving</a></li>
+					<li><a href="#">Highend</a></li>
+					<li><a href="#">Cheapest</a></li>
+					<li><a href="#">Specific Device Exchange</a></li>
+					<li><a href="#">Android Tab Accessories</a></li>
+				</ul>
+			</li>
+			<li class="Androiddropdown"><a data-toggle="dropdown" href="#"><img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Android/smart-watch.svg" style="color:#111111"> Watch<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="#">Circle watch face</a></li>
+					<li><a href="#">Square watch face</a></li>
+					<li><a href="#">Rectangular watch face</a></li>
+					<li><a href="#">Sporty watch</a></li>
+					<li><a href="#">Android Watch Accessories</a></li>
+				</ul>
+			</li>
+			<li class="Androiddropdown"><a data-toggle="dropdown" href="#"><i class="fa fa-television fa-2x"></i>  Android Tv <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="#"> Android Tv 2nd Gen</a></li>
+					<li><a href="#"> Android Tv 3rd Gen</a></li>
+					<li><a href="#">Andriod Tv Accessories</a></li>
+				</ul>
+			</li>
+			<li class="Androiddropdown"><a data-toggle="dropdown" href="#"><i class="fa fa-laptop fa-2x"></i>  Android Laptop<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="#">HP SlateBook</a></li>
+					<li><a href="#">Asus Transformer Book Trio</a></li>
+					<li><a href="#">Lenovo IdeaPad</a></li>
 				</ul>
 			</li>
 		</ul>
@@ -108,25 +137,22 @@ input[type=text]:focus {
 
   </div><!--row-->
 
-<br>
-</br>
-
-
 <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><span class="glyphicon glyphicon-remove"></span></a>
-  <a href="#">Mobile <i class="fa fa-mobile fa-lg" style="color:#000000" aria-hidden="true"></i></a>
-  <a href="#">Tablet <i class="fa fa-tablet fa-lg" style="color:#000000" aria-hidden="true"></i></a>
-  <a href="#">iPad <i class="fa fa-tablet fa-2x fa-rotate-270" style="color:#000000"></i></a>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times fa-lg"></i></a>
+  <a href="#">Smart Phone <i class="fa fa-mobile fa-lg" style="color:#000000" aria-hidden="true"></i></a>
+  <a href="#">Android Wear <img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/smartwatch.png"></a>
+  <a href="#">Tab <i class="fa fa-tablet fa-lg" style="color:#000000" aria-hidden="true"></i></a>
   <a href="#">Laptop <i class="fa fa-laptop fa-lg" aria-hidden="true" style="color:#000000"></i></a>
-  <a href="#">Desktop <img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/pc-computer.svg"></a>
-  <a href="#">Smart_TV <i class="fa fa-television" aria-hidden="true" style="color:#000000"></i></a>
-  <a href="#">Watch <img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/smartwatch.png"></a>
+  <a href="#">TV <i class="fa fa-television" aria-hidden="true" style="color:#000000"></i></a>
   <a href="#">Software <img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/software.png"></a>
   <a href="#">Accessories <img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/mouse-with-cord.png"></a>
   <a href="#">Gift-Voucher <img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/giftbox.png"></a>
 </div>
 
-
+	<br>
+  </br>
+  <br>
+  </br>
   <br>
   </br>
 
@@ -137,43 +163,98 @@ input[type=text]:focus {
 	<li data-target="#the-slider" data-slide-to="1"></li>
 	<li data-target="#the-slider" data-slide-to="2"></li>
 	<li data-target="#the-slider" data-slide-to="3"></li>
+	<li data-target="#the-slider" data-slide-to="4"></li>
+	<li data-target="#the-slider" data-slide-to="5"></li>
+	<li data-target="#the-slider" data-slide-to="6"></li>
+	<li data-target="#the-slider" data-slide-to="7"></li>
+	<li data-target="#the-slider" data-slide-to="8"></li>
+	<li data-target="#the-slider" data-slide-to="9"></li>
+	<li data-target="#the-slider" data-slide-to="10"></li>
 </ol>
 
 
 	
 <div class="carousel-inner">
 	
-<div class="item active">
+<div class="item active" style="color:#6ab344">
 	
-	<img src="/WEB-INF/MISC/Home/Caro/Macbook_&_Air-600x400.jpg" alt="" width="600" height="400">
-	<div class="carousel-caption">
-	<h3>MacBook AIR & New MacBook</h3>
+	<img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Android/MISC/Android-caro1.jpg" alt="" width="600" height="400">
+	<div class="carousel-caption" style="color:#6ab344">
+	<h3>Best Of Android</h3>
 	</div>
 </div><!--item1-->
 
 <div class="item">
 		
-	<img src="/WEB-INF/MISC/Home/Caro/Mobile-600x400.png" alt="" width="600" height="400">
-	<div class="carousel-caption">
-	<h3>Android</h3>
+	<img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Android/MISC/Android-caro2.jpg" alt="" width="600" height="400">
+	<div class="carousel-caption" style="color:#6ab344">
+	<h3>Samesung Next_IS_NOW</h3>
 	</div>
 </div><!--item2-->
 
 <div class="item">
 	
-	<img src="/WEB-INF/MISC/Home/Caro/windows-600x400.jpg" alt="" width="600" height="400">
-	<div class="carousel-caption">
-	<h3>Windows</h3>
+	<img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Android/MISC/AndroidTv-caro11.png" alt="" width="600" height="400">
+	<div class="carousel-caption" style="color:#6ab344">
+	<h3>Smart TV powered by ANDROID </h3>
 	</div>
 </div><!--item3-->
 
 <div class="item">
 	
-	<img src="/WEB-INF/MISC/Home/Caro/Androi-watch-600x400.jpg" alt="" width="600" height="400">
-	<div class="carousel-caption">
-	<h3>Android watch</h3>
+	<img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Android/MISC/AndroidWear-caro8.png" alt="" width="600" height="400">
+	<div class="carousel-caption" style="color:#6ab344">
+	<h3>Watch Became Smart by ANDROID</h3>
 	</div>
 </div><!--item4-->
+
+<div class="item">
+	
+	<img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Android/MISC/AndroidWear-caro7.jpg" alt="" width="600" height="400">
+	<div class="carousel-caption" style="color:#6ab344">
+	<h3>Powerfull Notifications</h3>
+	</div>
+</div><!--item5-->
+
+<div class="item">
+	
+	<img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Android/MISC/AndroidLaptop-caro10.png" alt="" width="600" height="400">
+	<div class="carousel-caption" style="color:#6ab344">
+	<h3>Laptop Powered by ANDROID</h3>
+	</div>
+</div><!--item6-->
+
+<div class="item">
+	
+	<img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Android/MISC/Android-caro4.jpg" alt="" width="600" height="400">
+	<div class="carousel-caption" style="color:#6ab344">
+	<h3>SONY WaterProof Android Mobile</h3>
+	</div>
+</div><!--item7-->
+
+<div class="item">
+	
+	<img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Android/MISC/Android-caro5.jpg" alt="" width="600" height="400">
+	<div class="carousel-caption" style="color:#6ab344">
+	<h3>LG G5 Modular Android Phone</h3>
+	</div>
+</div><!--item8-->
+
+<div class="item">
+	
+	<img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Android/MISC/Android-caro3.jpg" alt="" width="600" height="400">
+	<div class="carousel-caption" style="color:#6ab344">
+	<h3>Tablet </h3>
+	</div>
+</div><!--item9-->
+
+<div class="item">
+	
+	<img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Android/MISC/AndroidWear-caro6.jpg" alt="" width="600" height="400">
+	<div class="carousel-caption" style="color:#6ab344">
+	<h3>Watch Became Smart by ANDROID</h3>
+	</div>
+</div><!--item10-->
 
 
 </div>	<!--inner-->
@@ -309,7 +390,7 @@ input[type=text]:focus {
 	
 
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/js/bootstrap.min.js"></script>
 <script>
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
@@ -323,7 +404,7 @@ function closeNav() {
 </script>
 <script>
     $('.carousel').carousel({
-        interval: 1000 //changes the speed
+        interval: 1500 //changes the speed
     })
     </script>	
 </body>

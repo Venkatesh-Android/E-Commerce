@@ -5,10 +5,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="/bootstrap/css/custom.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-	<title>Home_Sidenav</title>
+	<link rel="stylesheet" href="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/css/custom.css">
+	<link rel="stylesheet" href="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/font-awesome-4.6.3/css/font-awesome.min.css">
+	<title>Apple_Products</title>
 
 	<style>
 	.carousel-inner> .item > img,
@@ -22,7 +22,7 @@
 input[type=text] {
     width: 130px;
     box-sizing: border-box;
-    border: 0px solid #ccc;
+    border: 2px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
     background-color: white;
@@ -39,6 +39,7 @@ input[type=text]:focus {
 }
 </style>
 
+
 </head>
 <body>
 
@@ -54,18 +55,18 @@ input[type=text]:focus {
 		<span class="icon-bar"></span>
 
 		</button>>
-			<a class="navbar-brand" href="homeside1" style="color:#157ed2">E-Commerce <i class="fa fa-mouse-pointer fa-lg" aria-hidden="true"></i></a>
+			<a class="navbar-brand" href="homeside1.jsp" style="color:#157ed2">E-Commerce <i class="fa fa-mouse-pointer fa-lg" aria-hidden="true"></i></a>
 	</div>
 			<div class="collapse navbar-collapse" id="collapse">
 		<ul class="nav navbar-nav">
-			<li><a href="#"><span style="font-size:20px;cursor:pointer" onclick="openNav()">Electronics <i class="fa fa-shield fa-rotate-90"></i></span></a></li>
-			<li><a href="#">NewArrivals </a></li>
-			<li><a href="#">Refurbished</a></li>
-
+			<li><a href="homeside1.jsp">Home <span class="glyphicon glyphicon-home"></span></a></li>
+			<li><a href="#"><span style="font-size:20px;cursor:pointer " onclick="openNav()">Apple <i class="fa fa-apple fa-lg" style="color:#8e8e93" aria-hidden="true"></i></span></a></li>
+			
 		</ul>
+
 		<i class="fa fa-search fa-2x" aria-hidden="true"></i> 
 		<form class="navbar-form navbar-left">
-            <input type="text" name="search"  placeholder="Search.."> 
+             <input type="text" name="search" placeholder="Search..">
          </form>
 
 		<ul class="nav navbar-nav navbar-right">
@@ -75,58 +76,91 @@ input[type=text]:focus {
 			<li><a href="LoginTry2"><i class="fa fa-sign-in fa-lg" aria-hidden="true"></i> Login</a></li>
 		</ul>
 			</div>
-
+			
 			<!--navigationDropdown_starts-->
 		<nav class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		<ul class="nav  nav-pills nav-tabs nav-justified">
-			<li class="dropdown"><a href="Apple_Prds-Page"><i class="fa fa-apple fa-lg" style="color:#8e8e93" aria-hidden="true"></i> Apple</a>
+			<li class="Appledropdown"><a data-toggle="dropdown" href="#"><i class="fa fa-laptop fa-2x"></i>  Mac<span class="caret"></span></a>
+			
+			<ul class="dropdown-menu">
+				<li><a href="#">MacBook</a></li>
+				<li><a href="#">MacBook Air</a></li>
+				<li><a href="#">MacBook Pro</a></li>
+				<li><a href="#">iMac</a></li>
+				<li><a href="#">Mac Pro</a></li>
+				<li><a href="#">Mac mini</a></li>
+				<li><a href="#">Accessories</a></li>
+			</ul>
 
 			</li>
-			<li class="dropdown"><a href="Android_Prds-Page"><i class="fa fa-android fa-lg" style="color:#6ab344" aria-hidden="true"></i> Android</a>
-				
-			</li>
-			<li class="dropdown"><a href="Windows_Prds-Page"><i class="fa fa-windows fa-lg" style="color:#0078d7" aria-hidden="true"></i> Windows</a>
-		
-			</li>
-			<li class="dropdown"><a data-toggle="dropdown" href="#"><img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Blackberry/bb2-edit-20x20.png"> Blackberry<span class="caret"></span></a>
+			<li class="Appledropdown"><a data-toggle="dropdown" href="#"><i class="fa fa-tablet fa-2x fa-rotate-270"></i>  iPad<span class="caret"></span></a>
 				<ul class="dropdown-menu">
-					<li><a href="#">Priv</a></li>
-					<li><a href="#">Passport</a></li>
-					<li><a href="#">Classic</a></li>
-					<li><a href="#">Leap</a></li>
-					<li><a href="#">P`9983</a></li>
-					<li><a href="#">Z30</a></li>
+					<li><a href="#">iPad Pro</a></li>
+					<li><a href="#">iPad Air 2</a></li>
+					<li><a href="#">iPad mini 4</a></li>
+					<li><a href="#">iPad mini 2</a></li>
+					<li><a href="#">Accessories</a></li>
+				</ul>
+			</li>
+			<li class="Appledropdown"><a data-toggle="dropdown" href="#"><i class="fa fa-mobile fa-2x"></i>  iPhone<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="#">iPhone 6s</a></li>
+					<li><a href="#">iPhone 6s Plus</a></li>
+					<li><a href="#">iPhone 6</a></li>
+					<li><a href="#">iPhone 6 Plus</a></li>
+					<li><a href="#">iPhone SE</a></li>
+					<li><a href="#">iPhone 5s</a></li>
+					<li><a href="#">Accessories</a></li>
+				</ul>
+			</li>
+			<li class="Appledropdown"><a data-toggle="dropdown" href="#" ><img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Apple/MISC/watch.svg">  Watch <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="#"><i class="fa fa-apple fa-lg"></i> Watch Sport</a></li>
+					<li><a href="#"><i class="fa fa-apple fa-lg"></i> Watch</a></li>
+					<li><a href="#"><i class="fa fa-apple fa-lg"></i> Watch Edition</a></li>
+					<li><a href="#">Accessories</a></li>
+				</ul>
+			</li>
+			<li class="Appledropdown"><a data-toggle="dropdown" href="#"><i class="fa fa-television fa-2x"></i> TV<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="#">&#xF8FF;TV 4th Gen</a></li>
+					<li><a href="#">&#xF8FF;TV 3rd Gen</a></li>
+					<li><a href="#">Accessories</a></li>
 				</ul>
 			</li>
 		</ul>
 	</nav>
 		
 	<!--navigationDropdown_ends-->
-	</div>
 
-
+			
+	</div> <!--navbar-ends-->
 
   </div><!--row-->
 
-<br>
-</br>
-
+  <br>
+  </br>
+  
 
 <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><span class="glyphicon glyphicon-remove"></span></a>
-  <a href="#">Mobile <i class="fa fa-mobile fa-lg" style="color:#000000" aria-hidden="true"></i></a>
-  <a href="#">Tablet <i class="fa fa-tablet fa-lg" style="color:#000000" aria-hidden="true"></i></a>
-  <a href="#">iPad <i class="fa fa-tablet fa-2x fa-rotate-270" style="color:#000000"></i></a>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times fa-lg"></i></a>
+  <a href="#">iPhone <i class="fa fa-mobile fa-lg" style="color:#000000" aria-hidden="true"></i></a>
+  <a href="#">&#xF8FF;Watch <img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Apple/MISC/black-watch.svg"></a>
+  <a href="#">iPad <i class="fa fa-tablet fa-lg" style="color:#000000" aria-hidden="true"></i></a>
   <a href="#">Laptop <i class="fa fa-laptop fa-lg" aria-hidden="true" style="color:#000000"></i></a>
-  <a href="#">Desktop <img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/pc-computer.svg"></a>
-  <a href="#">Smart_TV <i class="fa fa-television" aria-hidden="true" style="color:#000000"></i></a>
-  <a href="#">Watch <img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/smartwatch.png"></a>
+  <a href="#">Desktop <img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Apple/MISC/apple-desktop.svg"></a>
+  <a href="#">MacPro <img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Apple/MISC/mac-pro.svg"></a>
+  <a href="#">MacMini <img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Apple/MISC/mac-mini.svg"></a>
+  <a href="#">&#xF8FF;TV <i class="fa fa-television" aria-hidden="true" style="color:#000000"></i></a>
   <a href="#">Software <img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/software.png"></a>
   <a href="#">Accessories <img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/mouse-with-cord.png"></a>
   <a href="#">Gift-Voucher <img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/giftbox.png"></a>
 </div>
 
-
+	<br>
+  </br>
+  <br>
+  </br>
   <br>
   </br>
 
@@ -145,33 +179,33 @@ input[type=text]:focus {
 	
 <div class="item active">
 	
-	<img src="/WEB-INF/MISC/Home/Caro/Macbook_&_Air-600x400.jpg" alt="" width="600" height="400">
+	<img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Apple/MISC/apple-caro1.png" alt="" width="600" height="400">
 	<div class="carousel-caption">
-	<h3>MacBook AIR & New MacBook</h3>
+	<h3>iPhone</h3>
 	</div>
 </div><!--item1-->
 
 <div class="item">
 		
-	<img src="/WEB-INF/MISC/Home/Caro/Mobile-600x400.png" alt="" width="600" height="400">
+	<img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Apple/MISC/apple-caro2.png" alt="" width="600" height="400">
 	<div class="carousel-caption">
-	<h3>Android</h3>
+	<h3>Watch</h3>
 	</div>
 </div><!--item2-->
 
 <div class="item">
 	
-	<img src="/WEB-INF/MISC/Home/Caro/windows-600x400.jpg" alt="" width="600" height="400">
+	<img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Apple/MISC/apple-caro3.png" alt="" width="600" height="400">
 	<div class="carousel-caption">
-	<h3>Windows</h3>
+	<h3>iPad</h3>
 	</div>
 </div><!--item3-->
 
 <div class="item">
 	
-	<img src="/WEB-INF/MISC/Home/Caro/Androi-watch-600x400.jpg" alt="" width="600" height="400">
+	<img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Apple/MISC/apple-caro4.png" alt="" width="600" height="400">
 	<div class="carousel-caption">
-	<h3>Android watch</h3>
+	<h3>MacBook</h3>
 	</div>
 </div><!--item4-->
 
@@ -309,7 +343,7 @@ input[type=text]:focus {
 	
 
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/js/bootstrap.min.js"></script>
 <script>
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
@@ -323,7 +357,7 @@ function closeNav() {
 </script>
 <script>
     $('.carousel').carousel({
-        interval: 1000 //changes the speed
+        interval: 1500 //changes the speed
     })
     </script>	
 </body>
