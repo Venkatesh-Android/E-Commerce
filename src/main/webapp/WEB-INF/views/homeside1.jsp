@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="resources/bootstrap/css/custom.css">
+	<link rel="stylesheet" href="/WEB-INF/resources/bootstrap/css/custom.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<title>Home_Sidenav</title>
 
@@ -145,7 +145,7 @@ input[type=text]:focus {
 	
 <div class="item active">
 	
-	<img src="/MISC/Home/Caro/Macbook_&_Air-600x400.jpg" alt="" width="600" height="400">
+	<img src="Macbook_&_Air-600x400.jpg" alt="" width="600" height="400">
 	<div class="carousel-caption">
 	<h3>MacBook AIR & New MacBook</h3>
 	</div>
@@ -153,7 +153,7 @@ input[type=text]:focus {
 
 <div class="item">
 		
-	<img src="/MISC/Home/Caro/Mobile-600x400.png" alt="" width="600" height="400">
+	<img src="Mobile-600x400.png" alt="" width="600" height="400">
 	<div class="carousel-caption">
 	<h3>Android</h3>
 	</div>
