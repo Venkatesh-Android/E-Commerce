@@ -5,7 +5,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/bootstrap/css/custom.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<title>Home_Sidenav</title>
@@ -88,7 +88,7 @@ input[type=text]:focus {
 			<li class="dropdown"><a href="Windows_Prds-Page"><i class="fa fa-windows fa-lg" style="color:#0078d7" aria-hidden="true"></i> Windows</a>
 		
 			</li>
-			<li class="dropdown"><a data-toggle="dropdown" href="#"><img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Blackberry/bb2-edit-20x20.png"> Blackberry<span class="caret"></span></a>
+			<li class="dropdown"><a data-toggle="dropdown" href="#"><img src="/WEB-INF/MISC/Home/icons/bb2-edit-20x20.png"> Blackberry<span class="caret"></span></a>
 				<ul class="dropdown-menu">
 					<li><a href="#">Priv</a></li>
 					<li><a href="#">Passport</a></li>

@@ -6,10 +6,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HomeController {
 	@RequestMapping("/")
-	public String goo()
+	public String land()
 	
 	{
-		System.out.println("hello controller");
+		System.out.println("Entered Landing controller");
+		return("homeside1");
+		
+	}
+	@RequestMapping("/homeside1")
+	public String home()
+	
+	{
+		System.out.println("Back to Home controller");
 		return("homeside1");
 		
 	}

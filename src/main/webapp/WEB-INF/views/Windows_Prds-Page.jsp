@@ -5,9 +5,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link rel="stylesheet" href="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/css/custom.css">
-	<link rel="stylesheet" href="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/font-awesome-4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/bootstrap/css/custom.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<title>Windows_Products</title>
 
 	<style>
@@ -55,11 +55,11 @@ input[type=text]:focus {
 		<span class="icon-bar"></span>
 
 		</button>>
-			<a class="navbar-brand" href="homeside1.html" style="color:#157ed2">E-Commerce <i class="fa fa-mouse-pointer fa-lg" aria-hidden="true"></i></a>
+			<a class="navbar-brand" href="homeside1" style="color:#157ed2">E-Commerce <i class="fa fa-mouse-pointer fa-lg" aria-hidden="true"></i></a>
 	</div>
 			<div class="collapse navbar-collapse" id="collapse">
 		<ul class="nav navbar-nav">
-			<li><a href="homeside1.html">Home <span class="glyphicon glyphicon-home"></span></a></li>
+			<li><a href="homeside1">Home <span class="glyphicon glyphicon-home"></span></a></li>
 			<li><a href="#"><span style="font-size:20px;cursor:pointer" onclick="openNav()">Windows <i class="fa fa-windows fa-lg" style="color:#0078d7" aria-hidden="true"></i></span></a></li>
 			
 		</ul>
@@ -374,7 +374,7 @@ input[type=text]:focus {
 	
 
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script>
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
