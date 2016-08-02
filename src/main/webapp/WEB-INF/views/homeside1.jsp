@@ -1,3 +1,4 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -5,9 +6,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/bootstrap/css/custom.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="res/css/bootstrap.min.css">
+	<link rel="stylesheet" href="res/css/custom.css">
+	<link rel="stylesheet" href="res/css/font-awesome.min.css">
 	<title>Home_Sidenav</title>
 
 	<style>
@@ -53,7 +54,7 @@ input[type=text]:focus {
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 
-		</button>>
+		</button>
 			<a class="navbar-brand" href="homeside1" style="color:#157ed2">E-Commerce <i class="fa fa-mouse-pointer fa-lg" aria-hidden="true"></i></a>
 	</div>
 			<div class="collapse navbar-collapse" id="collapse">
@@ -88,7 +89,7 @@ input[type=text]:focus {
 			<li class="dropdown"><a href="Windows_Prds-Page"><i class="fa fa-windows fa-lg" style="color:#0078d7" aria-hidden="true"></i> Windows</a>
 		
 			</li>
-			<li class="dropdown"><a data-toggle="dropdown" href="#"><img src="/WEB-INF/MISC/Home/icons/bb2-edit-20x20.png"> Blackberry<span class="caret"></span></a>
+			<li class="dropdown"><a data-toggle="dropdown" href="#"><img src="res/images/home/icons/bb.png"> Blackberry<span class="caret"></span></a>
 				<ul class="dropdown-menu">
 					<li><a href="#">Priv</a></li>
 					<li><a href="#">Passport</a></li>
@@ -145,7 +146,7 @@ input[type=text]:focus {
 	
 <div class="item active">
 	
-	<img src="/WEB-INF/MISC/Home/Caro/Macbook_&_Air-600x400.jpg" alt="" width="600" height="400">
+	<img src="res/images/home/caro/macbook_air_600_400.jpg" alt="" width="600" height="400">
 	<div class="carousel-caption">
 	<h3>MacBook AIR & New MacBook</h3>
 	</div>
@@ -153,7 +154,7 @@ input[type=text]:focus {
 
 <div class="item">
 		
-	<img src="/WEB-INF/MISC/Home/Caro/Mobile-600x400.png" alt="" width="600" height="400">
+	<img src="res/images/home/caro/gps_android_600_400.png" alt="" width="600" height="400">
 	<div class="carousel-caption">
 	<h3>Android</h3>
 	</div>
@@ -161,7 +162,7 @@ input[type=text]:focus {
 
 <div class="item">
 	
-	<img src="/WEB-INF/MISC/Home/Caro/windows-600x400.jpg" alt="" width="600" height="400">
+	<img src="res/images/home/caro/windows_600_400.jpg" alt="" width="600" height="400">
 	<div class="carousel-caption">
 	<h3>Windows</h3>
 	</div>
@@ -169,7 +170,7 @@ input[type=text]:focus {
 
 <div class="item">
 	
-	<img src="/WEB-INF/MISC/Home/Caro/Androi-watch-600x400.jpg" alt="" width="600" height="400">
+	<img src="res/images/home/caro/android_watch_600_400.jpg" alt="" width="600" height="400">
 	<div class="carousel-caption">
 	<h3>Android watch</h3>
 	</div>
@@ -309,7 +310,7 @@ input[type=text]:focus {
 	
 
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="res/js/bootstrap.min.js"></script>
 <script>
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
