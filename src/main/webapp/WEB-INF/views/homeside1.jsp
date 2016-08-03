@@ -111,20 +111,22 @@ input[type=text]:focus {
 
 <br>
 </br>
-
+<br>
+</br>
 
 <div id="mySidenav" class="sidenav">
+ &nbsp;
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><span class="glyphicon glyphicon-remove"></span></a>
   <a href="#">Mobile <i class="fa fa-mobile fa-lg" style="color:#000000" aria-hidden="true"></i></a>
   <a href="#">Tablet <i class="fa fa-tablet fa-lg" style="color:#000000" aria-hidden="true"></i></a>
   <a href="#">iPad <i class="fa fa-tablet fa-2x fa-rotate-270" style="color:#000000"></i></a>
   <a href="#">Laptop <i class="fa fa-laptop fa-lg" aria-hidden="true" style="color:#000000"></i></a>
-  <a href="#">Desktop <img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/pc-computer.svg"></a>
+  <a href="#">Desktop <img src="res/images/home/icons/pc_computer.svg"></a>
   <a href="#">Smart_TV <i class="fa fa-television" aria-hidden="true" style="color:#000000"></i></a>
-  <a href="#">Watch <img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/smartwatch.png"></a>
-  <a href="#">Software <img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/software.png"></a>
-  <a href="#">Accessories <img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/mouse-with-cord.png"></a>
-  <a href="#">Gift-Voucher <img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/giftbox.png"></a>
+  <a href="#">Watch <img src="res/images/home/icons/smartwatch.png"></a>
+  <a href="#">Software <img src="res/images/home/icons/software.png"></a>
+  <a href="#">Accessories <img src="res/images/home/icons/mouse_with_cord.png"></a>
+  <a href="#">Gift-Voucher <img src="res/images/home/icons/giftbox.png"></a>
 </div>
 
 
@@ -154,9 +156,9 @@ input[type=text]:focus {
 
 <div class="item">
 		
-	<img src="res/images/home/caro/gps_android_600_400.png" alt="" width="600" height="400">
+	<img src="res/images/home/caro/android_sony_600_400.jpg" alt="" width="600" height="400">
 	<div class="carousel-caption">
-	<h3>Android</h3>
+	<h3>Water Resistant Android</h3>
 	</div>
 </div><!--item2-->
 
@@ -199,7 +201,7 @@ input[type=text]:focus {
 	<div class="row">
 		
 	<div class="jumbotron"> <!--jumbotron_starts_Circle_hides_in_xs-->
-			<img class="pull-right img-circle hidden-xs"  src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Apple_logo_200x200.png" alt="Lets give it a try">
+			<img class="pull-right img-circle hidden-xs"  src="res/images/home/icons/apple_logo_200_200.png" alt="Lets give it a try">
 
 			<h2>Today's Deal...</h2>
 						<p>APPLE deal starts @ 12:00_Am on July 4th</p>
@@ -209,7 +211,7 @@ input[type=text]:focus {
 
 		
 	<div class="jumbotron"> <!--jumbotron_starts_Circle_hides_in_xs-->
-			<img class="pull-right img-circle hidden-xs"  src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/android-logo-200x200.png" alt="Lets give it a try">
+			<img class="pull-right img-circle hidden-xs"  src="res/images/home/icons/android_logo_200_200.png" alt="Lets give it a try">
 
 			<h2>Tomorrow's Deal</h2>
 						<p>ANDROID deal starts @ 12:00_Am on July 5th</p>
@@ -229,7 +231,7 @@ input[type=text]:focus {
 			<div class="row"> <!--Nesting_Started-->
 		<div class="col-md-3  col-xs-6">
 			<div class="thumbnail">
-			<img class="img-responsive " src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/apple-iphone-6s-plus121.jpg">
+			<img class="img-responsive " src="res/images/home/products/iphone_6s_plus.jpg">
 			<h4><span class="glyphicon glyphicon-shopping-cart "></span>iPhone 6S Plus</h4>
 			<p class="caption">starts at 70,000₹ </p>
 			</div>
@@ -237,7 +239,7 @@ input[type=text]:focus {
 		
 		<div class="col-md-3 col-xs-6">
 			<div class="thumbnail">
-			<img class="img-responsive " src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/apple-iphone-6s111.jpg">
+			<img class="img-responsive " src="res/images/home/products/iphone_6s.jpg">
 			<h4><span class="glyphicon glyphicon-heart "></span>iPhone 6S</h4>
 			<p class="caption">lstarts at 60,000₹</p>
 			</div>
@@ -245,7 +247,7 @@ input[type=text]:focus {
 		
 		<div class="col-md-3 col-xs-6">
 			<div class="thumbnail">
-			<img class="img-responsive " src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/apple-iphone-6-11.jpg">
+			<img class="img-responsive " src="res/images/home/products/iphone_black_6.jpg">
 			<h4><span class="glyphicon glyphicon-star"></span>iPhone 6</h4>
 			<p class="caption">starts at 50,000₹</p>
 			</div>
@@ -253,7 +255,7 @@ input[type=text]:focus {
 
 		<div class="col-md-3 col-xs-6">
 			<div class="thumbnail">
-			<img class="img-responsive " src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/apple-iphone-6-plus-12.jpg">
+			<img class="img-responsive " src="res/images/home/products/iphone_black_6_plus.jpg">
 			<h4><span class="glyphicon glyphicon-ok "></span>iPhone 6 Plus</h4>
 			<p class="caption">starts at 60,000₹</p>
 			</div>	
@@ -264,7 +266,7 @@ input[type=text]:focus {
 				<div class="row"> <!--Nesting_Started-->
 		<div class="col-md-3  col-xs-6">
 			<div class="thumbnail">
-			<img class="img-responsive " src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Nexus5-150x150.jpg">
+			<img class="img-responsive " src="res/images/home/products/nexus_5_150_150.jpg">
 			<h4><span class="glyphicon glyphicon-shopping-cart "></span>Nexus 5</h4>
 			<p class="caption">starts at 25,999₹ </p>
 			</div>
@@ -272,7 +274,7 @@ input[type=text]:focus {
 		
 		<div class="col-md-3 col-xs-6">
 			<div class="thumbnail">
-			<img class="img-responsive " src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Nexus-5x-150x150.jpg">
+			<img class="img-responsive " src="res/images/home/products/nexus_5x_150_150.jpg">
 			<h4><span class="glyphicon glyphicon-heart "></span>Nexus 5X</h4>
 			<p class="caption">lstarts at 35,999₹</p>
 			</div>
@@ -280,7 +282,7 @@ input[type=text]:focus {
 		
 		<div class="col-md-3 col-xs-6">
 			<div class="thumbnail">
-			<img class="img-responsive " src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Nexus-6p-150x150.jpg">
+			<img class="img-responsive " src="res/images/home/products/nexus_6p_150_150.jpg">
 			<h4><span class="glyphicon glyphicon-star"></span>Nexus 6P</h4>
 			<p class="caption">starts at 44,999₹</p>
 			</div>
@@ -288,7 +290,7 @@ input[type=text]:focus {
 
 		<div class="col-md-3 col-xs-6">
 			<div class="thumbnail">
-			<img class="img-responsive " src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Nexus-9-150x150.jpg">
+			<img class="img-responsive " src="res/images/home/products/nexus_9_150_150.jpg">
 			<h4><span class="glyphicon glyphicon-ok "></span>Nexus 9</h4>
 			<p class="caption">starts at 67,999₹</p>
 			</div>	
@@ -324,7 +326,7 @@ function closeNav() {
 </script>
 <script>
     $('.carousel').carousel({
-        interval: 1000 //changes the speed
+        interval: 1250 //changes the speed
     })
     </script>	
 </body>
