@@ -54,7 +54,7 @@ input[type=text]:focus {
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 
-		</button>>
+		</button>
 			<a class="navbar-brand" href="homeside1" style="color:#157ed2">E-Commerce <i class="fa fa-mouse-pointer fa-lg" aria-hidden="true"></i></a>
 	</div>
 			<div class="collapse navbar-collapse" id="collapse">
@@ -104,7 +104,7 @@ input[type=text]:focus {
 					<li><a href="#">Android Tab Accessories</a></li>
 				</ul>
 			</li>
-			<li class="Windowsdropdown"><a data-toggle="dropdown" href="#"><img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Windows/MISC/wireless-band.svg"> Microsoft Band<span class="caret"></span></a>
+			<li class="Windowsdropdown"><a data-toggle="dropdown" href="#"><img src="res/images/windows/icons/wireless_band.svg"> Microsoft Band<span class="caret"></span></a>
 				<ul class="dropdown-menu">
 					<li><a href="#">Circle watch face</a></li>
 					<li><a href="#">Square watch face</a></li>
@@ -144,17 +144,20 @@ input[type=text]:focus {
 
 
   </div><!--row-->
+	<br>
+  </br>
 
 <div id="mySidenav" class="sidenav">
+&nbsp;
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times fa-lg"></i></a>
   <a href="#">Windows Phone <i class="fa fa-mobile fa-lg" style="color:#000000" aria-hidden="true"></i></a>
-  <a href="#">Smart Band <img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/smartwatch.png"></a>
+  <a href="#">Smart Band <img src="res/images/home/icons/smartwatch.png"></a>
   <a href="#">Surface Pro <i class="fa fa-tablet fa-rotate-270 fa-lg" style="color:#000000" aria-hidden="true"></i></a>
   <a href="#">Laptop <i class="fa fa-laptop fa-lg" aria-hidden="true" style="color:#000000"></i></a>
-  <a href="#">Desktop <img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/pc-computer.svg"></a>
-  <a href="#">Software <img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/software.png"></a>
-  <a href="#">Accessories <img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/mouse-with-cord.png"></a>
-  <a href="#">Gift-Voucher <img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/giftbox.png"></a>
+  <a href="#">Desktop <img src="res/images/windows/icons/pc_computer.svg"></a>
+  <a href="#">Software <img src="res/images/home/icons/software.png"></a>
+  <a href="#">Accessories <img src="res/images/home/icons/mouse_with_cord.png"></a>
+  <a href="#">Gift-Voucher <img src="res/images/home/icons/giftbox.png"></a>
 </div>
 
 	<br>
@@ -184,7 +187,7 @@ input[type=text]:focus {
 	
 <div class="item active" style="color:#0078d7">
 	
-	<img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Windows/MISC/caro1-windows10.jpg" alt="" width="600" height="400">
+	<img src="res/images/windows/caro/caro_1.jpg" alt="" width="600" height="400">
 	<div class="carousel-caption" style="color:#0078d7">
 	<h3>WINDOWS 10 for all Products</h3>
 	</div>
@@ -192,7 +195,7 @@ input[type=text]:focus {
 
 <div class="item">
 		
-	<img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Windows/MISC/caro2-windowsPhone.jpg" alt="" width="600" height="400">
+	<img src="res/images/windows/caro/caro_2.jpg" alt="" width="600" height="400">
 	<div class="carousel-caption" style="color:#0078d7">
 	<h3>Windows Phone</h3>
 	</div>
@@ -200,7 +203,7 @@ input[type=text]:focus {
 
 <div class="item">
 	
-	<img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Windows/MISC/caro3-Windows2in1.jpg" alt="" width="600" height="400">
+	<img src="res/images/windows/caro/caro_3.jpg" alt="" width="600" height="400">
 	<div class="carousel-caption" style="color:#0078d7">
 	<h3>Windows 2 in 1 Device</h3>
 	</div>
@@ -208,7 +211,7 @@ input[type=text]:focus {
 
 <div class="item">
 	
-	<img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Windows/MISC/caro4-surfacePro.png" alt="" width="600" height="400">
+	<img src="res/images/windows/caro/caro_4.png" alt="" width="600" height="400">
 	<div class="carousel-caption" style="color:#0078d7">
 	<h3>Microsoft Surface Pro</h3>
 	</div>
@@ -216,7 +219,7 @@ input[type=text]:focus {
 
 <div class="item">
 	
-	<img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Windows/MISC/caro5-Windows10Phone.png" alt="" width="600" height="400">
+	<img src="res/images/windows/caro/caro_5.png" alt="" width="600" height="400">
 	<div class="carousel-caption" style="color:#0078d7">
 	<h3>Mobile Powered by Windows-10</h3>
 	</div>
@@ -225,7 +228,7 @@ input[type=text]:focus {
 
 <div class="item">
 	
-	<img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Windows/MISC/caro6-surfacePro4.jpg" alt="" width="600" height="400">
+	<img src="res/images/windows/caro/caro_6.jpg" alt="" width="600" height="400">
 	<div class="carousel-caption" style="color:#0078d7">
 	<h3>Windows-10 Tablet</h3>
 	</div>
@@ -233,7 +236,7 @@ input[type=text]:focus {
 
 <div class="item">
 	
-	<img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Windows/MISC/caro7-windows10.png" alt="" width="600" height="400">
+	<img src="res/images/windows/caro/caro_7.png" alt="" width="600" height="400">
 	<div class="carousel-caption" style="color:#0078d7">
 	<h3>Windows10 Operating System</h3>
 	</div>
@@ -263,24 +266,15 @@ input[type=text]:focus {
 	<div class="row">
 		
 	<div class="jumbotron"> <!--jumbotron_starts_Circle_hides_in_xs-->
-			<img class="pull-right img-circle hidden-xs"  src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Apple_logo_200x200.png" alt="Lets give it a try">
+			<img class="pull-right  hidden-xs"  src="res/images/windows/icons/windows_logo_200_200.png" alt="Lets give it a try">
 
 			<h2>Today's Deal...</h2>
-						<p>APPLE deal starts @ 12:00_Am on July 4th</p>
+						<p>WINDOWS deal starts @ 12:00_Am on July 4th</p>
 						<p class="text-center">Deals will be GO till stocks lasts...</p>
 						<p class="text-center"><a class="btn btn-danger btn-md" href="#">Read More>></a></p>
 		</div> <!--jumbotron_ends-->
 
 		
-	<div class="jumbotron"> <!--jumbotron_starts_Circle_hides_in_xs-->
-			<img class="pull-right img-circle hidden-xs"  src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/android-logo-200x200.png" alt="Lets give it a try">
-
-			<h2>Tomorrow's Deal</h2>
-						<p>ANDROID deal starts @ 12:00_Am on July 5th</p>
-						<p class="text-center">Kindly Pre_Register to get notifiyed when Sales Begin...</p>
-						<p class="text-center"><a class="btn  btn-primary btn-md" href="#">Pre_Register</a></p>
-						
-		</div> <!--jumbotron_ends-->
 	</div> <!--jumbotron-->
 
 	<article class="col-lg-12">
@@ -290,78 +284,7 @@ input[type=text]:focus {
 			<!--<a class="btn btn-danger btn-sm" href="#">Read More>></a>-->
 
 
-			<div class="row"> <!--Nesting_Started-->
-		<div class="col-md-3  col-xs-6">
-			<div class="thumbnail">
-			<img class="img-responsive " src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/apple-iphone-6s-plus121.jpg">
-			<h4><span class="glyphicon glyphicon-shopping-cart "></span>iPhone 6S Plus</h4>
-			<p class="caption">starts at 70,000₹ </p>
-			</div>
-		</div>	
-		
-		<div class="col-md-3 col-xs-6">
-			<div class="thumbnail">
-			<img class="img-responsive " src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/apple-iphone-6s111.jpg">
-			<h4><span class="glyphicon glyphicon-heart "></span>iPhone 6S</h4>
-			<p class="caption">lstarts at 60,000₹</p>
-			</div>
-		</div>
-		
-		<div class="col-md-3 col-xs-6">
-			<div class="thumbnail">
-			<img class="img-responsive " src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/apple-iphone-6-11.jpg">
-			<h4><span class="glyphicon glyphicon-star"></span>iPhone 6</h4>
-			<p class="caption">starts at 50,000₹</p>
-			</div>
-		</div>
-
-		<div class="col-md-3 col-xs-6">
-			<div class="thumbnail">
-			<img class="img-responsive " src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/apple-iphone-6-plus-12.jpg">
-			<h4><span class="glyphicon glyphicon-ok "></span>iPhone 6 Plus</h4>
-			<p class="caption">starts at 60,000₹</p>
-			</div>	
-		</div>
-
-	</div> <!--Nesting_Ended-->
-
-				<div class="row"> <!--Nesting_Started-->
-		<div class="col-md-3  col-xs-6">
-			<div class="thumbnail">
-			<img class="img-responsive " src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Nexus5-150x150.jpg">
-			<h4><span class="glyphicon glyphicon-shopping-cart "></span>Nexus 5</h4>
-			<p class="caption">starts at 25,999₹ </p>
-			</div>
-		</div>	
-		
-		<div class="col-md-3 col-xs-6">
-			<div class="thumbnail">
-			<img class="img-responsive " src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Nexus-5x-150x150.jpg">
-			<h4><span class="glyphicon glyphicon-heart "></span>Nexus 5X</h4>
-			<p class="caption">lstarts at 35,999₹</p>
-			</div>
-		</div>
-		
-		<div class="col-md-3 col-xs-6">
-			<div class="thumbnail">
-			<img class="img-responsive " src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Nexus-6p-150x150.jpg">
-			<h4><span class="glyphicon glyphicon-star"></span>Nexus 6P</h4>
-			<p class="caption">starts at 44,999₹</p>
-			</div>
-		</div>
-
-		<div class="col-md-3 col-xs-6">
-			<div class="thumbnail">
-			<img class="img-responsive " src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Nexus-9-150x150.jpg">
-			<h4><span class="glyphicon glyphicon-ok "></span>Nexus 9</h4>
-			<p class="caption">starts at 67,999₹</p>
-			</div>	
-		</div> <!--Nesting_Ended-->
-
-
-
-	</div> <!--row-->
-
+			
 
 
 	<footer class="row">
