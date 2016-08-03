@@ -5,9 +5,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/bootstrap/css/custom.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="res/css/bootstrap.min.css">
+	<link rel="stylesheet" href="res/css/custom.css">
+	<link rel="stylesheet" href="res/css/font-awesome.min.css">
 	<title>Apple_Products</title>
 
 	<style>
@@ -54,7 +54,7 @@ input[type=text]:focus {
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 
-		</button>>
+		</button>
 			<a class="navbar-brand" href="homeside1" style="color:#157ed2">E-Commerce <i class="fa fa-mouse-pointer fa-lg" aria-hidden="true"></i></a>
 	</div>
 			<div class="collapse navbar-collapse" id="collapse">
@@ -113,7 +113,7 @@ input[type=text]:focus {
 					<li><a href="#">Accessories</a></li>
 				</ul>
 			</li>
-			<li class="Appledropdown"><a data-toggle="dropdown" href="#" ><img src="/WEB-INF/MISC/Apple/icons/watch.svg">  Watch <span class="caret"></span></a>
+			<li class="Appledropdown"><a data-toggle="dropdown" href="#" ><img src="res/images/apple/icons/watch.svg">  Watch <span class="caret"></span></a>
 				<ul class="dropdown-menu">
 					<li><a href="#"><i class="fa fa-apple fa-lg"></i> Watch Sport</a></li>
 					<li><a href="#"><i class="fa fa-apple fa-lg"></i> Watch</a></li>
@@ -140,21 +140,23 @@ input[type=text]:focus {
 
   <br>
   </br>
-  
+  <br>
+  </br>
 
 <div id="mySidenav" class="sidenav">
+ &nbsp;
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times fa-lg"></i></a>
   <a href="#">iPhone <i class="fa fa-mobile fa-lg" style="color:#000000" aria-hidden="true"></i></a>
-  <a href="#">&#xF8FF;Watch <img src="/WEB-INF/MISC/Apple/icons/black-watch.svg"></a>
+  <a href="#">&#xF8FF;Watch <img src="res/images/apple/icons/black_watch.svg"></a>
   <a href="#">iPad <i class="fa fa-tablet fa-lg" style="color:#000000" aria-hidden="true"></i></a>
   <a href="#">Laptop <i class="fa fa-laptop fa-lg" aria-hidden="true" style="color:#000000"></i></a>
-  <a href="#">Desktop <img src="/WEB-INF/MISC/Apple/icons/apple-desktop.svg"></a>
-  <a href="#">MacPro <img src="/WEB-INF/MISC/Apple/icons//mac-pro.svg"></a>
-  <a href="#">MacMini <img src="/WEB-INF/MISC/Apple/icons/mac-mini.svg"></a>
+  <a href="#">Desktop <img src="res/images/apple/icons/apple_desktop.svg"></a>
+  <a href="#">MacPro <img src="res/images/apple/icons/mac_pro.svg"></a>
+  <a href="#">MacMini <img src="res/images/apple/icons/mac_mini.svg"></a>
   <a href="#">&#xF8FF;TV <i class="fa fa-television" aria-hidden="true" style="color:#000000"></i></a>
-  <a href="#">Software <img src="/WEB-INF/MISC/Apple/icons/software.png"></a>
-  <a href="#">Accessories <img src="/WEB-INF/MISC/Apple/icons/mouse-with-cord.png"></a>
-  <a href="#">Gift-Voucher <img src="/WEB-INF/MISC/Apple/icons/giftbox.png"></a>
+  <a href="#">Software <img src="res/images/apple/icons/software.png"></a>
+  <a href="#">Accessories <img src="res/images/apple/icons/mouse_with_cord.png"></a>
+  <a href="#">Gift-Voucher <img src="res/images/apple/icons/giftbox.png"></a>
 </div>
 
 	<br>
@@ -179,7 +181,7 @@ input[type=text]:focus {
 	
 <div class="item active">
 	
-	<img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Apple/MISC/apple-caro1.png" alt="" width="600" height="400">
+	<img src="res/images/apple/caro/apple-caro1.png" alt="" width="600" height="400">
 	<div class="carousel-caption">
 	<h3>iPhone</h3>
 	</div>
@@ -187,7 +189,7 @@ input[type=text]:focus {
 
 <div class="item">
 		
-	<img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Apple/MISC/apple-caro2.png" alt="" width="600" height="400">
+	<img src="res/images/apple/caro/apple-caro2.png" alt="" width="600" height="400">
 	<div class="carousel-caption">
 	<h3>Watch</h3>
 	</div>
@@ -195,7 +197,7 @@ input[type=text]:focus {
 
 <div class="item">
 	
-	<img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Apple/MISC/apple-caro3.png" alt="" width="600" height="400">
+	<img src="res/images/apple/caro/apple-caro3.png" alt="" width="600" height="400">
 	<div class="carousel-caption">
 	<h3>iPad</h3>
 	</div>
@@ -203,7 +205,7 @@ input[type=text]:focus {
 
 <div class="item">
 	
-	<img src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Apple/MISC/apple-caro4.png" alt="" width="600" height="400">
+	<img src="res/images/apple/caro/apple-caro4.png" alt="" width="600" height="400">
 	<div class="carousel-caption">
 	<h3>MacBook</h3>
 	</div>
@@ -232,7 +234,7 @@ input[type=text]:focus {
 	<div class="row">
 		
 	<div class="jumbotron"> <!--jumbotron_starts_Circle_hides_in_xs-->
-			<img class="pull-right img-circle hidden-xs"  src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Apple_logo_200x200.png" alt="Lets give it a try">
+			<img class="pull-right img-circle hidden-xs"  src="res/images/home/icons/apple_logo_200_200.png" alt="Lets give it a try">
 
 			<h2>Today's Deal...</h2>
 						<p>APPLE deal starts @ 12:00_Am on July 4th</p>
@@ -240,16 +242,6 @@ input[type=text]:focus {
 						<p class="text-center"><a class="btn btn-danger btn-md" href="#">Read More>></a></p>
 		</div> <!--jumbotron_ends-->
 
-		
-	<div class="jumbotron"> <!--jumbotron_starts_Circle_hides_in_xs-->
-			<img class="pull-right img-circle hidden-xs"  src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/android-logo-200x200.png" alt="Lets give it a try">
-
-			<h2>Tomorrow's Deal</h2>
-						<p>ANDROID deal starts @ 12:00_Am on July 5th</p>
-						<p class="text-center">Kindly Pre_Register to get notifiyed when Sales Begin...</p>
-						<p class="text-center"><a class="btn  btn-primary btn-md" href="#">Pre_Register</a></p>
-						
-		</div> <!--jumbotron_ends-->
 	</div> <!--jumbotron-->
 
 	<article class="col-lg-12">
@@ -259,10 +251,10 @@ input[type=text]:focus {
 			<!--<a class="btn btn-danger btn-sm" href="#">Read More>></a>-->
 
 
-			<div class="row"> <!--Nesting_Started-->
+	<div class="row"> <!--Nesting_Started-->
 		<div class="col-md-3  col-xs-6">
 			<div class="thumbnail">
-			<img class="img-responsive " src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/apple-iphone-6s-plus121.jpg">
+			<img class="img-responsive " src="res/images/home/products/iphone_6s_plus.jpg">
 			<h4><span class="glyphicon glyphicon-shopping-cart "></span>iPhone 6S Plus</h4>
 			<p class="caption">starts at 70,000₹ </p>
 			</div>
@@ -270,7 +262,7 @@ input[type=text]:focus {
 		
 		<div class="col-md-3 col-xs-6">
 			<div class="thumbnail">
-			<img class="img-responsive " src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/apple-iphone-6s111.jpg">
+			<img class="img-responsive " src="res/images/home/products/iphone_6s.jpg">
 			<h4><span class="glyphicon glyphicon-heart "></span>iPhone 6S</h4>
 			<p class="caption">lstarts at 60,000₹</p>
 			</div>
@@ -278,7 +270,7 @@ input[type=text]:focus {
 		
 		<div class="col-md-3 col-xs-6">
 			<div class="thumbnail">
-			<img class="img-responsive " src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/apple-iphone-6-11.jpg">
+			<img class="img-responsive " src="res/images/home/products/iphone_black_6.jpg">
 			<h4><span class="glyphicon glyphicon-star"></span>iPhone 6</h4>
 			<p class="caption">starts at 50,000₹</p>
 			</div>
@@ -286,7 +278,7 @@ input[type=text]:focus {
 
 		<div class="col-md-3 col-xs-6">
 			<div class="thumbnail">
-			<img class="img-responsive " src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/apple-iphone-6-plus-12.jpg">
+			<img class="img-responsive " src="res/images/home/products/iphone_black_6_plus.jpg">
 			<h4><span class="glyphicon glyphicon-ok "></span>iPhone 6 Plus</h4>
 			<p class="caption">starts at 60,000₹</p>
 			</div>	
@@ -294,7 +286,9 @@ input[type=text]:focus {
 
 	</div> <!--Nesting_Ended-->
 
-				<div class="row"> <!--Nesting_Started-->
+    <!-- Please add below with suitable Apple Products Else do CRUD Operations as Required Since below is not suitable for this page -->
+
+				<!-- <div class="row"> Nesting_Started
 		<div class="col-md-3  col-xs-6">
 			<div class="thumbnail">
 			<img class="img-responsive " src="/Users/Venkatesh-Mac-SSD/NIIT/Html Trials/Week-0/E-commerce/images/Nexus5-150x150.jpg">
@@ -325,12 +319,12 @@ input[type=text]:focus {
 			<h4><span class="glyphicon glyphicon-ok "></span>Nexus 9</h4>
 			<p class="caption">starts at 67,999₹</p>
 			</div>	
-		</div> <!--Nesting_Ended-->
+		</div> Nesting_Ended
 
 
 
-	</div> <!--row-->
-
+	</div> row
+ -->
 
 
 	<footer class="row">
@@ -343,7 +337,7 @@ input[type=text]:focus {
 	
 
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="res/js/bootstrap.min.js"></script>
 <script>
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";

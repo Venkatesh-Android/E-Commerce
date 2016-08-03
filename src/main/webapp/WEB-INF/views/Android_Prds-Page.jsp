@@ -5,9 +5,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/bootstrap/css/custom.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="res/css/bootstrap.min.css">
+	<link rel="stylesheet" href="res/css/custom.css">
+	<link rel="stylesheet" href="res/css/font-awesome.min.css">
 	<title>Android_Products</title>
 
 	<style>
@@ -390,7 +390,7 @@ input[type=text]:focus {
 	
 
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="res/js/bootstrap.min.js"></script>
 <script>
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
