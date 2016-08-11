@@ -1,11 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
 <html lang="en">
 <head>
    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="res/css/bootstrap.min.css">
+    <link rel="stylesheet" src="res/css/formValidation.css"></link>
     <title>Login_2nd-Try</title>
 </head>
 <body>
@@ -49,7 +51,7 @@
                                     <!-- Button -->
 
                                     <div class="col-sm-12 controls">
-                                      <a id="btn-login" href="#" class="btn btn-success">Login  </a>
+                                      <button id="btn-login" type="submit" class="btn btn-success">Login  </button>
                                       <a id="btn-fblogin" href="#" class="btn btn-primary">Login with Facebook</a>
 
                                     </div>
@@ -116,16 +118,16 @@
                                 </div>
                                     
                                 <div class="form-group">
-                                    <label for="icode" class="col-md-3 control-label">Invitation Code</label>
+                                    <label for="mobile" class="col-md-3 control-label">Mobile</label>
                                     <div class="col-md-9">
-                                        <input type="text" class="form-control" name="icode" placeholder="">
+                                        <input type="text" class="form-control" name="mobile" placeholder="Enter Mobile Number">
                                     </div>
                                 </div>
 
                                 <div class="form-group">
                                     <!-- Button -->                                        
                                     <div class="col-md-offset-3 col-md-9">
-                                        <button id="btn-signup" type="button" class="btn btn-info"><i class="icon-hand-right"></i> &nbsp Sign Up</button>
+                                        <button id="btn-signup" type="submit" class="btn btn-info"><i class="icon-hand-right"></i> &nbsp; Sign Up</button>
                                         <span style="margin-left:8px;">or</span>  
                                     </div>
                                 </div>
@@ -135,7 +137,6 @@
                                     <div class="col-md-offset-3 col-md-9">
                                         <button id="btn-fbsignup" type="button" class="btn btn-primary"><i class="icon-facebook"></i>   Sign Up with Facebook</button>
                                     </div>                                           
-                                        
                                 </div>
                                 
                                 
@@ -149,9 +150,77 @@
                 
          </div> 
     </div>
-    
 
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="res/js/bootstrap.min.js"></script>
+<script src="res/js/formValidation.js"></script>
+<script src="res/js/bootstrapFormValidation.js"></script>
+
+
+<script type="text/javascript">
+    $('#signupform').formValidation({
+        framework: 'bootstrap',
+        icon: {
+            valid: 'fa fa-check',
+            invalid: 'fa fa-close',
+            validating: 'fa fa-refresh fa-spin'
+        },
+        fields: {
+            email: {
+                validators: {
+                    notEmpty: {
+                        message: 'Email cannot be empty'
+                    },
+
+                    regexp: {
+                        message: 'Enter a valid email',
+                        regexp: /\S+@\S+\.\S+/
+                    }
+                }
+            },
+            mobile: {
+                validators: {
+                    notEmpty: {
+                        message: 'mobile-num cannot be empty'
+                    },
+
+                    regexp: {
+                        message: 'Enter a valid mobile/landline number',
+                        regexp: /^(?:(?:\+|0{0,2})91(\s*[\ -]\s*)?|[0]?)?[789]\d{9}|(\d[ -]?){10}\d$/
+
+                        //^[789]\d{9}$ (this will work fine for a 10 digit mobile number)
+                        //^(?:(?:\+|0{0,2})91(\s*[\ -]\s*)?|[0]?)?[789]\d{9}|(\d[ -]?){10}\d$  (this will work for mobile of national & International, landline )
+                    }
+                }
+            },
+            firstname: {
+                validators: {
+                    notEmpty: {
+                        message: 'Dont leave it blank'
+                    }
+                    
+                }
+            },
+            lastname: {
+                validators: {
+                    notEmpty: {
+                        message: 'Dont leave it blank'
+                    }
+                    
+                }
+            },
+            passwd: {
+                validators: {
+                    notEmpty: {
+                        message: 'Give Password'
+                    }   
+                }
+            }
+        }
+    });
+</script>
 </body>
 </html>
+
+
+<!-- $icon.insertAfter($label); -->
